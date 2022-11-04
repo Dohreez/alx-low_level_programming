@@ -5,6 +5,7 @@
  * main - Prints the addition of positive numbers,
  * @argc: The number of arguments passed to the program.
  * @argv: An array of pointers to the arguments.
+ * atoi is a function that converts a string into an int
  * Return: If one of the numbers contains symbols that are non-digits - 1.
  *	Otherwise - 0.
  */
