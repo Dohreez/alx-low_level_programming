@@ -1,4 +1,5 @@
 #include "lists.h"
+#include <stdio.h>
 
 /**
  * reverse_listint - Reverses a listint_t list.
@@ -24,5 +25,6 @@ listint_t *reverse_listint(listint_t **head)
 	}
 
 	(*head)->next = behind;
+
 	return (*head);
 }
